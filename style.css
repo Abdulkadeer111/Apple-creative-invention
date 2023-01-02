@@ -1,0 +1,360 @@
+
+/*general setting*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.body{
+	color: white;
+	font-family: roboto;
+}
+
+.top-head {
+	background-color: #585858;
+	height: 50px;
+	padding: 0 200px 0 200px;
+	color: #fff;
+	
+}
+
+.header-section{
+	position: relative;
+	width: 950px;
+	height: 50px;	
+	padding-top: 5px;
+
+}
+
+.left-header ul{
+	position: absolute;
+	width: 380px;
+	height: 20px;	
+	padding-top: 10px;
+
+}
+
+.left-header ul li{		
+	display: inline-flex;
+	margin: 0 2px;
+}
+.right-header ul {
+position: absolute;	
+	left: 720px;
+	width: 250px;
+	height: 20px;	
+	display: inline-block;
+	padding-top: 10px;
+
+}
+.right-header ul li{		
+	display: inline-flex;
+	margin: 0 10px;
+}
+
+.top-head ul li{
+	list-style: none;
+}
+
+.middle-head {
+	background-color: #4B4C4D;
+	height: 105px;
+	padding: 0 20px 0 120px;
+
+}
+
+.top-body {
+	background-color:#E7402F;
+	height:480px;
+
+
+}
+.row{
+	display: flex;
+	color: white;
+
+}
+
+.column{
+	flex: 50%;
+}
+
+.intro{
+	padding: 30px 0 30px 0;
+	font-size: 18px;
+}
+.left-col{
+	padding: 100px 0 0 250px;
+
+}
+
+.right-col{
+	padding: 20px 60px 0 0 ;
+}
+
+.button-read-more{
+	background-color: white;
+	color: black;
+	padding: 15px 30px 15px 30px;
+	font-size: 16px;
+	margin: 0 5px 0 0px;
+}
+
+.button-purchase{
+	background-color: #4B4C4D;
+	color: white;
+	padding: 15px 30px 15px 30px;
+	font-size: 16px;
+	margin: 0 0 0 5px;
+}
+
+
+ /* Beginning of the customize section and everything that its contains */
+
+.customize-section {
+	background-color: #4B4C4D;
+	height: 370px;
+}
+
+.second-row{
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+	padding: 70px 250px 0 250px;
+
+
+}
+
+.second-row h2{
+	padding: 30px 0 20px 60px;
+}
+
+.colum2{
+	float: left;
+	width: 33.33%;
+}
+
+.colum2 i{
+	padding: 0 0 0 100px;
+	font-size: 50px;
+
+}
+/* Stops the float property from affecting content after the columns */
+.colum2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.second-left-col colum2{
+	padding: 30px;
+
+}
+
+ /* Beginning of the customize section and everything that its contains */
+
+.recent-work-section {
+	background-color: #585858;
+	height: 1300px; 
+	color: #fff;
+}
+
+.recent{
+	padding: 40px 200px 10px 200px;
+}
+
+.recent h2{
+	padding: 5px 0 40px 0;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	
+}
+
+.grid-img{
+	width: 100%;
+
+}
+
+/* latest news parts*/
+
+.latest-blog{
+	display: flex;
+	justify-content: space-around;
+	align-content: left;
+
+}
+
+.latest-blog a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.blog-section{
+	padding: 20px 170px 0px 200px;
+}
+
+.blog-section h2{
+	padding: 20px 0 20px 0px;
+}
+
+.features{
+	padding: 50px 0px 0 220px;
+}
+
+.features h2{
+	padding: 1px 0 20px 0;
+}
+
+
+/* beginning of the subscribe section */
+
+.subscribe-section {
+	background-color:#4B4C4D;
+	height: 270px; 
+	color: #fff;
+}
+
+.subscribe{
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 120px 0px 220px;
+	color: #fff;
+
+}
+
+.subscribe{
+	position: relative;
+	width: 1000px;
+	height: 200px;
+	
+}
+
+.subscribe-1{
+	position: absolute;
+	left:  200px;
+	width: 333px;
+	height: 120px;
+	
+}
+
+
+.subscribe-2{
+	position: absolute;
+	right: 
+	width: 333px;
+	height: 120px;
+	
+}
+
+.subscribe-3{
+	position: absolute;
+	right: 100px;
+	width: 333px;
+	height: 120px;
+	
+}
+
+.subscribe h2{
+	padding: 0 0 15px 0;
+}
+
+input {
+	padding: 11px 18px 11px 18px;
+	color: #fff;
+	background-color: lightgrey;
+}
+
+.subscribe-button{
+	background-color: red;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	font-size: 16px;
+}
+
+
+
+
+
+.main-footer{
+	background-color: #3A3A3A;
+	height: 65px;
+	color: #fff;
+}
+
+/* Inside the footer */
+
+.Copyright{
+	position: absolute;
+	left: 0;
+	width: 450px;
+	height: 30px;
+	
+}
+.footer{
+	position: relative;
+	width: 1000px;
+	height: 30px;
+	left: 200px;
+	padding-top: 30px;
+	
+}
+
+.footer-icons  {
+	position: absolute;
+	width: 450px;
+	height: 30px;
+	right: 0;
+	list-style: none;
+
+
+}
+
+
+.footer-icons ul{
+	flex: 1;
+}
+.footer-icons ul li{
+	list-style: none;
+	display: inline-flex;
+	margin: 0 10px;
+	float: right;
+}
+
+
+nav{
+	display: flex;
+	padding: 30px 10%;
+}
+
+.logo{
+	font-size: 40px;
+	color: white;
+	cursor: pointer;
+}
+
+nav ul{
+	flex: 5;
+	text-align: right;
+
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	padding-top: 15px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	 
+
+}
